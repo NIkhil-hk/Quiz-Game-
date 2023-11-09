@@ -1,5 +1,5 @@
 # Quiz-Game-
 This is a simple Quiz game webpage using HTML , CSS and JavaScript .
 
-#checkout
+Check this webpage
 https://nikhil-hk.github.io/Quiz-Game-/
