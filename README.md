@@ -1,2 +1,2 @@
 # Quiz-Game-
-I have made a Quiz game webpage using HTML , CSS and JavaScript .
+This is a simple Quiz game webpage using HTML , CSS and JavaScript .
