@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="start">
+            <button id="startbtn" onclick="start()">Start the quiz</button>
+        </div>
+        <div id="quiz">
+
+            <div id="q1" class="options-container">
+                <h2><span>Q 1 . </span>What does HTML stand for?</h2>
+                <span>A . </span><input type="radio" id="op11" name="op1"><label for="op11">Hyper Text Markup Language</label><br>
+                <span>B . </span><input type="radio" id="op12" name="op1"><label for="op12">Hyperlinks and Text Markup Language</label><br>
+                <span>C . </span><input type="radio" id="op13" name="op1"><label for="op13">Home Tool Markup Language</label><br>
+                <span>D . </span><input type="radio" id="op14" name="op1"><label for="op14">Hyper Transfer Markup Language</label><br>
+            </div>
+            <div id="q2" class="options-container">
+                <h2><span>Q 2 . </span>Which property is used to change the background color in CSS?</h2>
+                <span>A . </span><input type="radio" id="op21" name="op2"><label for="op21">color</label><br>
+                <span>B . </span><input type="radio" id="op22" name="op2"><label for="op22">background-color</label><br>
+                <span>C . </span><input type="radio" id="op23" name="op2"><label for="op23">bgcolor</label><br>
+                <span>D . </span><input type="radio" id="op24" name="op2"><label for="op24">background</label><br>
+            </div>
+            <div id="q3" class="options-container">
+                <h2><span>Q 3 . </span>What is the correct way to declare a variable in JavaScript?</h2>
+                <span>A . </span><input type="radio" id="op31" name="op3"><label for="op31">variable x; </label><br>
+                <span>B . </span><input type="radio" id="op32" name="op3"><label for="op32">var x;</label><br>
+                <span>C . </span><input type="radio" id="op33" name="op3"><label for="op33">v x;</label><br>
+                <span>D . </span><input type="radio" id="op34" name="op3"><label for="op34">int x;</label><br>
+            </div>
+            <div id="q4" class="options-container">
+                <h2><span>Q 4 . </span>How do you create a function in JavaScript?</h2>
+                <span>A . </span><input type="radio" id="op41" name="op4"><label for="op41">function: myFunction()</label><br>
+                <span>B . </span><input type="radio" id="op42" name="op4"><label for="op42">function myFunction()</label><br>
+                <span>C . </span><input type="radio" id="op43" name="op4"><label for="op43">create function myFunction()</label><br>
+                <span>D . </span><input type="radio" id="op44" name="op4"><label for="op44">function = myFunction()</label><br>
+            </div>
+            <div id="q5" class="options-container">
+                <h2><span>Q 5 . </span>Which of the following is not a JavaScript framework?</h2>
+                <span>A . </span><input type="radio" id="op51" name="op5"><label for="op51">Angular</label><br>
+                <span>B . </span><input type="radio" id="op52" name="op5"><label for="op52">React</label><br>
+                <span>C . </span><input type="radio" id="op53" name="op5"><label for="op53">Vue</label><br>
+                <span>D . </span><input type="radio" id="op54" name="op5"><label for="op54">JavaFX</label><br>
+            </div>
+
+        </div>
+        <div id="buttons">
+            <button id="pre" onclick="pre()">Previous</button>
+            <button id="nxt" onclick="next()">Next</button>
+        </div>
+    
+    </div>
+    <div id="result">
+        <h1 id="message"></h1>
+        <button id="restart" onclick="restart()">Restart the quiz</button>
+    </div>
+</body>
+</html>
